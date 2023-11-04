@@ -6,7 +6,6 @@ import { Button } from 'react-bootstrap';
 
 export default function LogoutBtn() {
     return (
-        <Link href={`/`}>
             <Button
                 variant="primary"
                 onClick={() => {
@@ -18,7 +17,6 @@ export default function LogoutBtn() {
                         "padding" : 6 + "px " + 12 + "px"}}>
                 로그아웃
             </Button>
-        </Link>
         
     );
 }
